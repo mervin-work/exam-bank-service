@@ -1,0 +1,34 @@
+{
+  "name": "bank-service",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "test": "mocha ./tests/customer.test.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.14.3",
+    "@strapi/plugin-users-permissions": "4.14.3",
+    "@strapi/strapi": "4.14.3",
+    "@types/jest": "^29.5.5",
+    "better-sqlite3": "8.6.0",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "9eb59970-834e-40d4-bcce-1459ad877952"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
